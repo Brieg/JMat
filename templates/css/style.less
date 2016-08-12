@@ -1,5 +1,9 @@
+@primary-color: #484C8B;
+@small-font: 0.6em;
+
 html,
 body {
+  color: @primary-color;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -13,7 +17,7 @@ body {
 
 * {
   font-family: 'Verdana', Helvetica, sans-serif;
-  color: #333447;
+  color: #484C8B;
   line-height: 1.5;
 }
 
@@ -89,9 +93,58 @@ p {
   margin-right: auto;
 }
 
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  /* Tablet view */
+  .container {
+    width: 85%;
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  /* Smartphone view: */
+  .container {
+    width: 75%;
+  }
+}
+
 .row {
   position: relative;
   width: 100%;
+}
+
+.logo {
+  background-image: url("../../images/t10.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 80px;
+}
+
+.row.header {
+  background-image: url("../../images/t1.png");
+  background-repeat: repeat;
+}
+
+.row.menu-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.row.user {
+  text-align: right;
+  font-size: @small-font;
+}
+
+.row.slider {
+  background-image: url("../../images/1_slajd_1920x800.png");
+  width: 100%;
+    height: 400px;
+    background-size: cover;
 }
 
 .row [class^="col"] {
@@ -173,12 +226,6 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
-  .container {
-    width: 80%;
-  }
-}
-
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
     width: 4.33%;
@@ -230,12 +277,5 @@ p {
 
   .hidden-sm {
     display: block;
-  }
-}
-
-@media only screen and (min-width: 60em) { /* 960px */
-  .container {
-    width: 75%;
-    max-width: 60rem;
   }
 }

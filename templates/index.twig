@@ -10,45 +10,52 @@
     </head>
     <body>
     <div class="container">
-        
-        <div class="row">
+
+        <!-- Header & Slider -->
+        <div class="row header">
             <div class="col-5">
-                logo
+                <div class="logo"></div>
             </div>
             <div class="col-7">
-                menu gorne
+                <div class="row menu-up">
+                    <div class="col-4">Wpisz kod</div>
+                    <div class="col-4">Moje dostępy</div>
+                    <div class="col-4">Koszyk</div>
+                </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                {{ user.name }} {{ user.surname }} (wyloguj)
+            <div class="row user">
+                <div class="col-12">
+                    {{ user.name }} {{ user.surname }} (wyloguj)
+                </div>
             </div>
-        <div>
+            <div class="row slider">
+                <div class="col-12"></div>
+            </div>
+        </div>     
 
         <div class="row">
             <div class="col-12">
                 Matlandia Junior
             </div>
-        <div>
+        </div>
 
         <div class="row">
             <div class="col-12">
                 Zalety programu
             </div>
-        <div>
+        </div>
 
         <div class="row">
             <div class="col-12">
                 Pobierz pełną liste działów i tematów.
             </div>
-        <div>
+        </div>
 
         <div class="row">
             <div class="col-12">
                 Zobacz program
             </div>
-        <div>
+        </div>
 
         <div class="row">
             <div class="col-12">
@@ -59,14 +66,14 @@
                     <div class="col-4">Dla mauczyciela</div>
                 </div>
             </div>
-        <div>
+        </div>
 
         <div class="row">
             Nasze Programy
             <div class="row">
             {% for programs in otherApps %}
             <div class="col-4">
-                <img src=".{{programs.image}}" alt="{{programs.tags}}" width="450" height="319"><br>
+                <img src=".{{programs.image}}" alt="{{programs.tags}}" width="350" height="219"><br>
                 <h1>{{programs.name}}</h1></br>
                 <h2>{{programs.tags}}</h2></br>
                 {{programs.description}}</br>
