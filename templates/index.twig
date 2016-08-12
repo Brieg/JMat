@@ -1,7 +1,29 @@
-{% block stylesheets %}
-   <link href="./templates/css/style.css" rel="stylesheet" type="text/css" />
-{% endblock %}
-
-<h1>Przykład użycia zmiennej</h1>
-<p>Użytkownik: {{ user.name }} {{ user.surname }}</p>
-<p>Wszystkie zmienne znajdują się w pliku: <b>data.json</b></p>
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            {% block stylesheets %}
+                <link href="./templates/css/style.css" rel="stylesheet" type="text/css" />
+            {% endblock %}
+            <title>Matlandia Junior</title>
+        {% endblock %}
+    </head>
+    <body>
+        <h1>Przykład użycia zmiennej</h1>
+        <p>Użytkownik: {{ user.name }} {{ user.surname }}</p>
+        <p>Wszystkie zmienne znajdują się w pliku: <b>data.json</b></p>
+        <div id="content">
+            {% block content %}
+             
+            {% endblock %}
+            <div id="footer">
+            {% block footer %}
+                <p>Gdańskie Wydawnictwo Oświatowe z ograniczoną odpowiedzialnością sp.j.<p>
+                <p>80-309 Gdańsk, al. Grunwaldzka 411
+                <hr>
+                Copyright  &copy; Gdańskie Wydawnictwo Oświatowe {{ "now"|date('Y', timezone="Europe/Paris") }}.
+            {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>
