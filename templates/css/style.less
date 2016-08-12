@@ -8,9 +8,8 @@ body {
     font-size: @primary-size;
     color: #000000;
     background-color: #FFFFFF;
-    width: 50%;
+    //width: 50%;
     margin: 0 auto;
-    
 }
 
 #content {
@@ -21,6 +20,72 @@ body {
     font-size: @primary-size - 0.5em;
     text-align: left;
 }
+
+//Begin Image resposive
+div.img { 
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 430px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+}
+
+div.name
+{
+    font-size: 1.4em;
+}
+
+div.tags
+{
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    /* Desktops */
+    width: 33.3%;
+    padding-bottom: 20px;
+    float: left;
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+    /* Tablet view: 2 tiles */
+    .responsive {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    /* Smartphone view: 1 tile */
+    .responsive {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+//End Image .responsive
 
 p { 
     font-size: @primary-size;

@@ -12,9 +12,33 @@
         
         <div id="content">
             {% block content %}
-            <div id="col header">
+            <div id="col header"> 
+                
                 <div id="username">{{ user.name }} {{ user.surname }} (wyloguj)</div>
+
             </div> 
+
+            <div id="col prog"> 
+
+            {% for programs in otherApps %}
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="img_fjords.jpg">
+                    <img src=".{{programs.image}}" alt="{{programs.tags}}" width="450" height="319">
+                    </a>
+                    <div class="desc">
+                        <div class="name">{{programs.name}}</div>
+                        <div class="tags">{{programs.tags}}</div>
+                        {{programs.description}}
+                    </div>
+                    <a href="{{programs.showMoreUrl}}">zobacz więcej ></a>
+                </div>
+                
+            </div>
+            {% endfor %}
+                <div class="clearfix"></div>
+            </div>
+            </div>
             {% endblock %}
             <div id="footer">
             {% block footer %}
