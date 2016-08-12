@@ -1,11 +1,37 @@
 @primary-size: 1em;
 @primary-color: #484848;
+@matlanda-font-color: #000000;
+@padding-page: 20px;
+
+body {
+    font-family: MuseoSans, serif;
+    font-size: @primary-size;
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+#content {
+    padding: 0px @padding-page 0px @padding-page;
+}
+
+#username {
+    font-size: @primary-size - 0.5em;
+    text-align: left;
+}
 
 p { 
     font-size: @primary-size;
+    color: @matlanda-font-color;
 }
 
 h1 {
     font-size: @primary-size + 1em;
     color: @primary-color;
+}
+
+header {
+
 }

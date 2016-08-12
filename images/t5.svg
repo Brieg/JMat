@@ -1,0 +1,48 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="338px" height="88px" viewBox="0 0 338 88">
+<defs>
+<filter id="Filter_1" x="-20%" y="-31.82182022612753%" width="140%" height="163.64364045225506%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#000000" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feGaussianBlur in="SourceGraphic" stdDeviation="5,5" result="result2"/>
+
+<feComposite in2="result2" in="result1" operator="in" result="result3"/>
+
+<feComposite in2="result3" in="SourceGraphic" operator="over" result="result4"/>
+</filter>
+
+<g id="Symbol_9_0_Layer0_0_MEMBER_0_MEMBER_0_FILL">
+<path fill="#54549E" stroke="none" d="
+M 293.3 21.6
+L 293.3 81.05 329.9 81.05 314.95 52 329.9 21.6 293.3 21.6 Z"/>
+</g>
+
+<g id="Symbol_9_0_Layer0_0_MEMBER_0_MEMBER_1_FILL">
+<path fill="#54549E" stroke="none" d="
+M 36.6 22.2
+L 0 22.2 14.95 52.65 0 81.7 36.6 81.7 36.6 22.2 Z"/>
+</g>
+
+<g id="Symbol_9_0_Layer0_0_MEMBER_0_MEMBER_2_FILL">
+<path fill="#6363B9" stroke="none" d="
+M 303 75.2
+L 303 0 26.95 0 26.95 75.2 303 75.2 Z"/>
+</g>
+</defs>
+
+<g filter="url(#Filter_1)" transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 4.05,3.15) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_9_0_Layer0_0_MEMBER_0_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_9_0_Layer0_0_MEMBER_0_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_9_0_Layer0_0_MEMBER_0_MEMBER_2_FILL"/>
+</g>
+</g>
+</g>
+</svg>

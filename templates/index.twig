@@ -9,12 +9,12 @@
         {% endblock %}
     </head>
     <body>
-        <h1>Przykład użycia zmiennej</h1>
-        <p>Użytkownik: {{ user.name }} {{ user.surname }}</p>
-        <p>Wszystkie zmienne znajdują się w pliku: <b>data.json</b></p>
+        
         <div id="content">
             {% block content %}
-             
+            <div id="col header">
+                <div id="username">{{ user.name }} {{ user.surname }} (wyloguj)</div>
+            </div> 
             {% endblock %}
             <div id="footer">
             {% block footer %}

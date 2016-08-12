@@ -1,0 +1,219 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="240px" height="160px" viewBox="0 0 240 160">
+<defs>
+<filter id="Filter_1" x="-20%" y="-21.997595642494073%" width="140%" height="143.99519128498815%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#666666" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feGaussianBlur in="SourceGraphic" stdDeviation="5,5" result="result2"/>
+
+<feComposite in2="result2" in="result1" operator="in" result="result3"/>
+
+<feComposite in2="result3" in="SourceGraphic" operator="over" result="result4"/>
+</filter>
+
+<filter id="Filter_2" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#666666" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feGaussianBlur in="SourceGraphic" stdDeviation="1,1" result="result2"/>
+
+<feComposite in2="result2" in="result1" operator="in" result="result3"/>
+
+<feComposite in2="result3" in="SourceGraphic" operator="over" result="result4"/>
+</filter>
+
+<g id="ch___kopia_0_Layer0_0_MEMBER_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 302.75 68.25
+Q 295.85 62.15 287.45 56.7 270.8 45.9 252.4 40.05 235.2 34.6 209.4 32 192.85 30.3 181.9 30.3 122.6 30.3 80.7 54.45 38.75 78.6 38.75 112.65 38.75 146.75 80.7 170.9 122.6 195 181.9 195 241.25 195 283.15 170.9 325.1 146.75 325.1 112.65 325.1 87.8 302.75 68.25 Z"/>
+</g>
+
+<g id="ch___kopia_0_Layer0_0_MEMBER_0_MEMBER_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 171.45 42.9
+Q 170.05 36.85 170.2 33.45
+L 135.25 9.1 133 66.95
+Q 132.2 67.6 131.55 68.25 135.6 72.35 139.95 76.4 142.7 78.75 144.5 78.45 145.8 78.25 147.5 76.55 150.55 73.6 167.45 59.75 171.15 56.75 174.35 53.85 173 48.95 171.45 42.9 Z"/>
+</g>
+
+<font horiz-adv-x="2048">
+<!--  Nazwa czcionki: Open Sans Semibold
+Identyfikator dostawcy: 1ASC
+Digitized data copyright © 2011, Google Corporation.
+http://www.apache.org/licenses/LICENSE-2.0
+URL for more Information: http://www.adobe.com/go/font_vendor_id?ID=1ASC&Name=Open%20Sans&PSName=OpenSans-Semibold&applanguage=pl_PL-->
+<font-face font-family="Open_Sans_Semibold_Regular" units-per-em="2048" ascent="2189" descent="600"/>
+
+<hkern u1="e" u2="z" k="20"/>
+
+<hkern u1="r" u2="ó" k="41"/>
+
+<glyph unicode="W" horiz-adv-x="1937" d="
+M 1542 0
+L 1282 0 1034 872
+Q 1018 929 994 1036 970 1144 965 1186 955 1122 933 1020 910 918 895 868
+L 653 0 393 0 204 732 12 1462 256 1462 465 610
+Q 514 405 535 248 546 333 568 438 590 543 608 608
+L 846 1462 1083 1462 1327 604
+Q 1362 485 1401 248 1416 391 1473 612
+L 1681 1462 1923 1462 1542 0 Z"/>
+
+<glyph unicode="y" horiz-adv-x="1098" d="
+M 0 1106
+L 256 1106 481 479
+Q 532 345 549 227
+L 557 227
+Q 566 282 590 360 614 439 844 1106
+L 1098 1106 625 -147
+Q 496 -492 195 -492 117 -492 43 -475
+L 43 -289
+Q 96 -301 164 -301 334 -301 403 -104
+L 444 0 0 1106 Z"/>
+
+<glyph unicode="p" horiz-adv-x="1276" d="
+M 729 -20
+Q 519 -20 403 131
+L 389 131
+Q 403 -9 403 -39
+L 403 -492 168 -492 168 1106 358 1106
+Q 366 1075 391 958
+L 403 958
+Q 513 1126 733 1126 940 1126 1056 976 1171 826 1171 555 1171 284 1054 132 936 -20 729 -20 Z
+M 672 934
+Q 532 934 468 852 403 770 403 590
+L 403 555
+Q 403 353 467 262 531 172 676 172 798 172 864 272 930 372 930 557 930 743 865 838 799 934 672 934 Z"/>
+
+<glyph unicode="r" horiz-adv-x="883" d="
+M 729 1126
+Q 800 1126 846 1116
+L 823 897
+Q 773 909 719 909 578 909 491 817 403 725 403 578
+L 403 0 168 0 168 1106 352 1106 383 911 395 911
+Q 450 1010 539 1068 627 1126 729 1126 Z"/>
+
+<glyph unicode="ó" horiz-adv-x="1251" d="
+M 1149 555
+Q 1149 284 1010 132 871 -20 623 -20 468 -20 349 50 230 120 166 251 102 382 102 555 102 824 240 975 378 1126 629 1126 869 1126 1009 971 1149 817 1149 555 Z
+M 344 555
+Q 344 172 627 172 907 172 907 555 907 934 625 934 477 934 411 836 344 738 344 555 Z
+M 473 1241
+L 473 1266
+Q 530 1336 591 1422 651 1508 686 1569
+L 959 1569 959 1548
+Q 907 1487 804 1390 700 1294 629 1241
+L 473 1241 Z"/>
+
+<glyph unicode="b" horiz-adv-x="1276" d="
+M 672 934
+Q 530 934 468 850 405 767 403 571
+L 403 555
+Q 403 353 467 262 531 172 676 172 801 172 866 271 930 370 930 557 930 934 672 934 Z
+M 733 1126
+Q 940 1126 1056 976 1171 826 1171 555 1171 283 1054 131 937 -20 729 -20 519 -20 403 131
+L 387 131 344 0 168 0 168 1556 403 1556 403 1186
+Q 403 1145 399 1064 395 983 393 961
+L 403 961
+Q 515 1126 733 1126 Z"/>
+
+<glyph unicode="u" horiz-adv-x="1300" d="
+M 948 0
+L 915 145 903 145
+Q 854 68 764 24 673 -20 557 -20 356 -20 257 80 158 180 158 383
+L 158 1106 395 1106 395 424
+Q 395 297 447 233 499 170 610 170 758 170 828 258 897 347 897 555
+L 897 1106 1133 1106 1133 0 948 0 Z"/>
+
+<glyph unicode="j" horiz-adv-x="571" d="
+M 55 -492
+Q -51 -492 -121 -467
+L -121 -281
+Q -53 -299 18 -299 168 -299 168 -129
+L 168 1106 403 1106 403 -145
+Q 403 -316 314 -404 224 -492 55 -492 Z
+M 154 1399
+Q 154 1462 189 1496 223 1530 287 1530 349 1530 384 1496 418 1462 418 1399 418 1339 384 1304 349 1270 287 1270 223 1270 189 1304 154 1339 154 1399 Z"/>
+
+<glyph unicode=" " horiz-adv-x="532"/>
+
+<glyph unicode="e" horiz-adv-x="1180" d="
+M 651 -20
+Q 393 -20 248 130 102 281 102 545 102 816 237 971 372 1126 608 1126 827 1126 954 993 1081 860 1081 627
+L 1081 500 344 500
+Q 349 339 431 252 513 166 662 166 760 166 845 184 929 203 1026 246
+L 1026 55
+Q 940 14 852 -3 764 -20 651 -20 Z
+M 608 948
+Q 496 948 429 877 361 806 348 670
+L 850 670
+Q 848 807 784 877 720 948 608 948 Z"/>
+
+<glyph unicode="z" horiz-adv-x="979" d="
+M 907 0
+L 68 0 68 145 627 926 102 926 102 1106 891 1106 891 942 344 180 907 180 907 0 Z"/>
+
+<glyph unicode="ł" horiz-adv-x="604" d="
+M 416 897
+L 518 965 612 811 416 684 416 0 180 0 180 537 88 479 -2 633 180 750 180 1556 416 1556 416 897 Z"/>
+
+<glyph unicode="a" horiz-adv-x="1188" d="
+M 860 0
+L 813 154 805 154
+Q 725 53 644 16 563 -20 436 -20 273 -20 182 68 90 156 90 317 90 488 217 575 344 662 604 670
+L 795 676 795 735
+Q 795 841 746 893 696 946 592 946 507 946 429 921 351 896 279 862
+L 203 1030
+Q 293 1077 400 1101 507 1126 602 1126 813 1126 921 1034 1028 942 1028 745
+L 1028 0 860 0 Z
+M 510 160
+Q 638 160 716 231 793 303 793 432
+L 793 528 651 522
+Q 485 516 410 466 334 417 334 315 334 241 378 200 422 160 510 160 Z"/>
+
+<glyph unicode="t" horiz-adv-x="805" d="
+M 580 170
+Q 666 170 752 197
+L 752 20
+Q 713 3 652 -9 590 -20 524 -20 190 -20 190 332
+L 190 928 39 928 39 1032 201 1118 281 1352 426 1352 426 1106 741 1106 741 928 426 928 426 336
+Q 426 251 469 210 511 170 580 170 Z"/>
+
+<glyph unicode="n" horiz-adv-x="1300" d="
+M 1141 0
+L 905 0 905 680
+Q 905 808 854 871 802 934 690 934 541 934 472 846 403 758 403 551
+L 403 0 168 0 168 1106 352 1106 385 961 397 961
+Q 447 1040 539 1083 631 1126 743 1126 1141 1126 1141 721
+L 1141 0 Z"/>
+
+<glyph unicode="i" horiz-adv-x="571" d="
+M 403 0
+L 168 0 168 1106 403 1106 403 0 Z
+M 154 1399
+Q 154 1462 189 1496 223 1530 287 1530 349 1530 384 1496 418 1462 418 1399 418 1339 384 1304 349 1270 287 1270 223 1270 189 1304 154 1339 154 1399 Z"/>
+</font>
+</defs>
+
+<g filter="url(#Filter_1)" transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, -66.2,-5.1) ">
+<g filter="url(#Filter_2)" transform="matrix( 1, 0, 0, 1, 66.2,5.1) ">
+<g transform="matrix( -0.804443359375, 0, 0, -0.799530029296875, 266.35,161.6) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#ch___kopia_0_Layer0_0_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#ch___kopia_0_Layer0_0_MEMBER_0_MEMBER_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 0.8422698974609375, 0, 0, 0.8422698974609375, 91.55,39.85) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="225.75" height="89.8" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="33.9" y="35.25" baseline-shift="0%" kerning="auto" font-family="Open_Sans_Semibold_Regular" font-size="33" fill="#43437D" xml:space="preserve">Wypróbuj </tspan><tspan x="27.6" y="76.15" baseline-shift="0%" kerning="auto" font-family="Open_Sans_Semibold_Regular" font-size="33" fill="#43437D" xml:space="preserve">bezpłatnie</tspan></text>
+</g>
+</g>
+</g>
+</svg>
