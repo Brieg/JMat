@@ -9,45 +9,84 @@
         {% endblock %}
     </head>
     <body>
+    <div class="container">
         
-        <div id="content">
-            {% block content %}
-            <div id="col header"> 
-                
-                <div id="username">{{ user.name }} {{ user.surname }} (wyloguj)</div>
-
-            </div> 
-
-            <div id="col prog"> 
-
-            {% for programs in otherApps %}
-            <div class="responsive">
-                <div class="img">
-                    <a target="_blank" href="img_fjords.jpg">
-                    <img src=".{{programs.image}}" alt="{{programs.tags}}" width="450" height="319">
-                    </a>
-                    <div class="desc">
-                        <div class="name">{{programs.name}}</div>
-                        <div class="tags">{{programs.tags}}</div>
-                        {{programs.description}}
-                    </div>
-                    <a href="{{programs.showMoreUrl}}">zobacz więcej ></a>
-                </div>
-                
+        <div class="row">
+            <div class="col-5">
+                logo
             </div>
-            {% endfor %}
-                <div class="clearfix"></div>
-            </div>
-            </div>
-            {% endblock %}
-            <div id="footer">
-            {% block footer %}
-                <p>Gdańskie Wydawnictwo Oświatowe z ograniczoną odpowiedzialnością sp.j.<p>
-                <p>80-309 Gdańsk, al. Grunwaldzka 411
-                <hr>
-                Copyright  &copy; Gdańskie Wydawnictwo Oświatowe {{ "now"|date('Y', timezone="Europe/Paris") }}.
-            {% endblock %}
+            <div class="col-7">
+                menu gorne
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-12">
+                {{ user.name }} {{ user.surname }} (wyloguj)
+            </div>
+        <div>
+
+        <div class="row">
+            <div class="col-12">
+                Matlandia Junior
+            </div>
+        <div>
+
+        <div class="row">
+            <div class="col-12">
+                Zalety programu
+            </div>
+        <div>
+
+        <div class="row">
+            <div class="col-12">
+                Pobierz pełną liste działów i tematów.
+            </div>
+        <div>
+
+        <div class="row">
+            <div class="col-12">
+                Zobacz program
+            </div>
+        <div>
+
+        <div class="row">
+            <div class="col-12">
+                Oferta
+                <div class="row">
+                    <div class="col-4">Dla ucznia</div>
+                    <div class="col-4">Dla rodzica</div>
+                    <div class="col-4">Dla mauczyciela</div>
+                </div>
+            </div>
+        <div>
+
+        <div class="row">
+            Nasze Programy
+            <div class="row">
+            {% for programs in otherApps %}
+            <div class="col-4">
+                <img src=".{{programs.image}}" alt="{{programs.tags}}" width="450" height="319"><br>
+                <h1>{{programs.name}}</h1></br>
+                <h2>{{programs.tags}}</h2></br>
+                {{programs.description}}</br>
+                <a href="{{programs.showMoreUrl}}">zobacz więcej ></a>
+            </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">Szybkie menu</div>
+            <div class="col-6">FB</div>
+        </div>
+        <div class="row">
+            <div class="col-1">Szybkie menu</div>
+        </div>
+
+    <!-- End container -->    
+    </div>
+        
+   
     </body>
 </html>
